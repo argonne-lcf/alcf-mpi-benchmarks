@@ -1,0 +1,24 @@
+Jobid: 41412
+qsub --mode script -A Performance -n 64 -t 0:60 -O topo_nointr -q cache-quad topo_nointer.cobalt
+Sat Oct 01 13:43:48 2016 +0000 (UTC) submitted with cwd set to: /lus/theta-fs0/home/chunduri/Work/ALCF_MPI_Benchmark_v1.02.Theta/aggregate
+jobid 41412 submitted from terminal /dev/pts/2
+Sat Oct 01 21:15:54 2016 +0000 (UTC) 
+Sat Oct 01 21:15:54 2016 +0000 (UTC) Command: '/lus/theta-fs0/home/chunduri/Work/ALCF_MPI_Benchmark_v1.02.Theta/aggregate/topo_nointer.cobalt'
+Sat Oct 01 21:15:54 2016 +0000 (UTC) 
+Sat Oct 01 21:15:54 2016 +0000 (UTC) Environment:
+Sat Oct 01 21:15:54 2016 +0000 (UTC) SHELL=/bin/bash
+Sat Oct 01 21:15:54 2016 +0000 (UTC) COBALT_PARTNAME=3-11,20-47,52-75,84-86
+Sat Oct 01 21:15:54 2016 +0000 (UTC) COBALT_JOBID=41412
+Sat Oct 01 21:15:54 2016 +0000 (UTC) COBALT_STARTTIME=1475356543
+Sat Oct 01 21:15:54 2016 +0000 (UTC) LOGNAME=chunduri
+Sat Oct 01 21:15:54 2016 +0000 (UTC) USER=chunduri
+Sat Oct 01 21:15:54 2016 +0000 (UTC) COBALT_ENDTIME=1475360143
+Sat Oct 01 21:15:54 2016 +0000 (UTC) COBALT_PARTSIZE=64
+Sat Oct 01 21:15:54 2016 +0000 (UTC) HOME=/home/chunduri
+Sat Oct 01 21:15:54 2016 +0000 (UTC) COBALT_JOBSIZE=64
+Sat Oct 01 21:15:54 2016 +0000 (UTC) 
+Sat Oct 01 21:15:54 2016 +0000 (UTC) Info: stdin received from /dev/null
+Sat Oct 01 21:15:54 2016 +0000 (UTC) Info: stdout sent to /lus/theta-fs0/home/chunduri/Work/ALCF_MPI_Benchmark_v1.02.Theta/aggregate/topo_nointr.output
+Sat Oct 01 21:15:54 2016 +0000 (UTC) Info: stderr sent to /lus/theta-fs0/home/chunduri/Work/ALCF_MPI_Benchmark_v1.02.Theta/aggregate/topo_nointr.error
+Sat Oct 01 21:15:54 2016 +0000 (UTC) 
+Sat Oct 01 21:17:09 2016 +0000 (UTC) Info: task completed normally with an exit code of 137; initiating job cleanup and removal

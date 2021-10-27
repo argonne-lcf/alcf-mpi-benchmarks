@@ -1,0 +1,32 @@
+#!/bin/bash -x
+#COBALT -A Performance
+#COBALT -n 2
+#COBALT -t 0:10
+##COBALT -O topo
+#COBALT -q cache-quad
+##COBALT --attrs location="1,3"
+##COBALT --attrs location=3437-3438
+
+rpn=1
+aprun -N $rpn -n $((COBALT_JOBSIZE*rpn)) ./pingpong
+
+#rpn=2
+#aprun -N $rpn -n $((COBALT_JOBSIZE*rpn)) ./pingpong
+
+#rpn=4
+#aprun -N $rpn -n $((COBALT_JOBSIZE*rpn)) ./pingpong
+
+#rpn=8
+#aprun -N $rpn -n $((COBALT_JOBSIZE*rpn)) ./pingpong
+
+#rpn=16
+#aprun -N $rpn -n $((COBALT_JOBSIZE*rpn)) ./pingpong
+
+#rpn=32
+#aprun -N $rpn -n $((COBALT_JOBSIZE*rpn)) ./pingpong
+
+#rpn=64
+#aprun -N $rpn -n $((COBALT_JOBSIZE*rpn)) ./pingpong
+
+exit $?
+

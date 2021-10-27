@@ -1,0 +1,71 @@
+#include "mpi.h"
+//#include "mpix.h"
+
+/*
+  assign first and second ranks of each physical node as source and target.
+
+  Version 0.81: nearest neighbor benchmark: sender is always rank 0 (a,b,c,d,e,t), receiver is always rank, located in (a+1,b,c,d,e,t).
+                accounting for wrap-around
+*/
+
+int getranks( int pattern, int *source, int *target )
+{
+  int i;
+  MPIX_Hardware_t hw;
+  MPIX_Hardware(&hw);
+  int taskid;
+
+  int * coords = (int*) malloc(sizeof(int) * (hw.torus_dimension+1));
+
+  if (pattern == 0) // intranode pair
+  {
+    // get my coordinate
+    for (i = 0; i < hw.torus_dimension; i++) coords[i] = hw.Coords[i];
+    
+    coords[i] = 0;
+    MPIX_Torus2rank(coords, source);
+    coords[i] = 1;
+    MPIX_Torus2rank(coords, target);
+  }
+  else if (pattern == 1) // nearest 1 hop neighbor
+  {
+    /*
+      assign source to rank 0, then target to the 1 hop neighbor in the A dim.
+    */
+
+    // the choice is very simple: 
+    // source is always rank 0, it has coordinates a,b,c,d,e,t
+    // target is always rank with coordinates a+1,b,c,d,e,t
+    // if rank 0 is located so that a = hw.Size[0]-1, target's A is set 0
+    
+    MPI_Comm_rank( MPI_COMM_WORLD, &taskid );
+    if ( taskid == 0 )
+    {
+        MPIX_Rank2torus(0, &coords[0]);
+        coords[0] = (coords[0] + 1) % hw.Size[0];
+        coords[hw.torus_dimension] = hw.coreID;
+        MPIX_Torus2rank(coords, target);
+    }
+    
+    *source = 0;
+    MPI_Bcast( target, 1, MPI_INT, 0, MPI_COMM_WORLD );
+    
+  }
+  else // farthest pair
+  {
+    /*
+      source is <0, 0, 0, 0, 0>
+      target is <A/2, B/2, C/2, D/2, E/2>
+    */ 
+    for (i = 0; i < hw.torus_dimension; i++) coords[i] = 0;
+    coords[i] = 0;
+    MPIX_Torus2rank(coords, source);
+    
+    for (i = 0; i < hw.torus_dimension; i++) coords[i] = hw.Size[i] / 2;
+    coords[i] = 0;
+    MPIX_Torus2rank(coords, target);    
+  }
+  
+  free(coords);
+  return 0; 
+}

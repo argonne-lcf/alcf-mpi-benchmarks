@@ -1,0 +1,23 @@
+Jobid: 40885
+qsub --mode script -A Performance -n 48 -t 1:00 -O topo48huge -q cache-quad topo48.cobalt
+Thu Sep 22 04:13:31 2016 +0000 (UTC) submitted with cwd set to: /lus/theta-fs0/home/chunduri/Work/ALCF_MPI_Benchmark_v1.02.Theta/collectives
+jobid 40885 submitted from terminal /dev/pts/3
+Thu Sep 22 04:14:00 2016 +0000 (UTC) 
+Thu Sep 22 04:14:00 2016 +0000 (UTC) Command: '/lus/theta-fs0/home/chunduri/Work/ALCF_MPI_Benchmark_v1.02.Theta/collectives/topo48.cobalt'
+Thu Sep 22 04:14:00 2016 +0000 (UTC) 
+Thu Sep 22 04:14:00 2016 +0000 (UTC) Environment:
+Thu Sep 22 04:14:00 2016 +0000 (UTC) SHELL=/bin/bash
+Thu Sep 22 04:14:00 2016 +0000 (UTC) COBALT_PARTNAME=60-75,84-115
+Thu Sep 22 04:14:00 2016 +0000 (UTC) COBALT_JOBID=40885
+Thu Sep 22 04:14:00 2016 +0000 (UTC) COBALT_STARTTIME=1474517625
+Thu Sep 22 04:14:00 2016 +0000 (UTC) LOGNAME=chunduri
+Thu Sep 22 04:14:00 2016 +0000 (UTC) USER=chunduri
+Thu Sep 22 04:14:00 2016 +0000 (UTC) COBALT_ENDTIME=1474521225
+Thu Sep 22 04:14:00 2016 +0000 (UTC) COBALT_PARTSIZE=48
+Thu Sep 22 04:14:00 2016 +0000 (UTC) HOME=/home/chunduri
+Thu Sep 22 04:14:00 2016 +0000 (UTC) COBALT_JOBSIZE=48
+Thu Sep 22 04:14:00 2016 +0000 (UTC) 
+Thu Sep 22 04:14:01 2016 +0000 (UTC) Info: stdin received from /dev/null
+Thu Sep 22 04:14:01 2016 +0000 (UTC) Info: stdout sent to /lus/theta-fs0/home/chunduri/Work/ALCF_MPI_Benchmark_v1.02.Theta/collectives/topo48huge.output
+Thu Sep 22 04:14:01 2016 +0000 (UTC) Info: stderr sent to /lus/theta-fs0/home/chunduri/Work/ALCF_MPI_Benchmark_v1.02.Theta/collectives/topo48huge.error
+Thu Sep 22 04:14:01 2016 +0000 (UTC) 

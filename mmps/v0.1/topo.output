@@ -1,0 +1,42 @@
+ppn = 1: Aries 3: nodes 1: min/max mmps  0.483015 / 0.483015
+ppn = 1: Aries 1: nodes 1: min/max mmps  0.000000 / 0.000000
+ppn = 1: Aries 2: nodes 2: min/max mmps  0.375631 / 0.375697
+ppn = 1: Aries 4: nodes 30: min/max mmps  0.492279 / 0.527637
+Application 1576722 exit signals: Killed
+Application 1576722 resources: utime ~0s, stime ~128s, Rss ~7640, inblocks ~0, outblocks ~0
+ppn = 2: Aries 3: nodes 1: min/max mmps  0.872941 / 0.872941
+ppn = 2: Aries 1: nodes 1: min/max mmps  0.000000 / 0.000000
+ppn = 2: Aries 2: nodes 2: min/max mmps  0.788600 / 0.791699
+ppn = 2: Aries 4: nodes 30: min/max mmps  0.851044 / 1.024208
+Application 1576723 exit signals: Killed
+Application 1576723 resources: utime ~0s, stime ~128s, Rss ~7936, inblocks ~0, outblocks ~0
+ppn = 4: Aries 3: nodes 1: min/max mmps  1.724701 / 1.724701
+ppn = 4: Aries 1: nodes 1: min/max mmps  0.000000 / 0.000000
+ppn = 4: Aries 2: nodes 2: min/max mmps  1.426565 / 1.474355
+ppn = 4: Aries 4: nodes 30: min/max mmps  1.871770 / 2.045850
+Application 1576724 exit signals: Killed
+Application 1576724 resources: utime ~0s, stime ~128s, Rss ~7800, inblocks ~0, outblocks ~0
+ppn = 8: Aries 3: nodes 1: min/max mmps  3.565151 / 3.565151
+ppn = 8: Aries 1: nodes 1: min/max mmps  0.000000 / 0.000000
+ppn = 8: Aries 2: nodes 2: min/max mmps  2.868968 / 2.892926
+ppn = 8: Aries 4: nodes 30: min/max mmps  3.777536 / 4.116344
+Application 1576725 exit signals: Killed
+Application 1576725 resources: utime ~0s, stime ~128s, Rss ~7840, inblocks ~0, outblocks ~0
+ppn = 16: Aries 3: nodes 1: min/max mmps  4.279333 / 4.279333
+ppn = 16: Aries 1: nodes 1: min/max mmps  0.000000 / 0.000000
+ppn = 16: Aries 2: nodes 2: min/max mmps  5.239034 / 6.023086
+ppn = 16: Aries 4: nodes 30: min/max mmps  7.210760 / 8.291760
+Application 1576726 exit signals: Killed
+Application 1576726 resources: utime ~0s, stime ~128s, Rss ~8928, inblocks ~0, outblocks ~0
+ppn = 32: Aries 3: nodes 1: min/max mmps  14.521617 / 14.521617
+ppn = 32: Aries 1: nodes 1: min/max mmps  0.000000 / 0.000000
+ppn = 32: Aries 2: nodes 2: min/max mmps  10.017859 / 10.289954
+ppn = 32: Aries 4: nodes 30: min/max mmps  12.384062 / 16.032364
+Application 1576727 exit signals: Killed
+Application 1576727 resources: utime ~0s, stime ~128s, Rss ~9996, inblocks ~0, outblocks ~0
+ppn = 64: Aries 3: nodes 1: min/max mmps  14.142425 / 14.142425
+ppn = 64: Aries 1: nodes 1: min/max mmps  0.000000 / 0.000000
+ppn = 64: Aries 2: nodes 2: min/max mmps  15.864467 / 16.237778
+ppn = 64: Aries 4: nodes 30: min/max mmps  16.115600 / 23.551012
+Application 1576728 exit signals: Killed
+Application 1576728 resources: utime ~4s, stime ~326s, Rss ~16144, inblocks ~0, outblocks ~0

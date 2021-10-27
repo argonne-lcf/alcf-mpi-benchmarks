@@ -1,0 +1,22 @@
++ rpn=1
++ aprun -N 1 -n 128 ./mmps
+[NID 03403] 2016-08-14 18:36:27 Apid 1576722: initiated application termination
++ rpn=2
++ aprun -N 2 -n 256 ./mmps
+[NID 03410] 2016-08-14 18:36:39 Apid 1576723: initiated application termination
++ rpn=4
++ aprun -N 4 -n 512 ./mmps
+[NID 00102] 2016-08-14 18:36:50 Apid 1576724: initiated application termination
++ rpn=8
++ aprun -N 8 -n 1024 ./mmps
+[NID 03318] 2016-08-14 18:37:04 Apid 1576725: initiated application termination
++ rpn=16
++ aprun -N 16 -n 2048 ./mmps
+[NID 03357] 2016-08-14 18:37:18 Apid 1576726: initiated application termination
++ rpn=32
++ aprun -N 32 -n 4096 ./mmps
+[NID 03327] 2016-08-14 18:37:33 Apid 1576727: initiated application termination
++ rpn=64
++ aprun -N 64 -n 8192 ./mmps
+[NID 00101] 2016-08-14 18:37:45 Apid 1576728: initiated application termination
++ exit 137

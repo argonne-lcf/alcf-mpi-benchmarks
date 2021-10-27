@@ -1,0 +1,16 @@
+#!/bin/bash -x
+#COBALT -A Performance
+#COBALT -n 12
+#COBALT -t 0:20
+#COBALT -O topo
+#COBALT -q cache-quad
+
+source /opt/intel/vtune_amplifier_xe_2016.4.0.470476/amplxe-vars.sh
+export LD_LIBRARY_PATH=/opt/intel/vtune_amplifier_xe_2016.4.0.470476/lib64:$LD_LIBRARY_PATH
+export PATH=/opt/intel/vtune_amplifier_xe_2016.4.0.470476/bin64:$PATH
+
+rpn=1
+aprun -N $rpn -n $((COBALT_JOBSIZE*rpn)) --env AMPLXE_RUNTOOL_OPTIONS=--profiling-signal\ 33 /opt/intel/vtune_amplifier_xe_2016.4.0.470476/bin64/amplxe-cl --collect hotspots -r result_vtune -trace-mpi -- ./mmps
+
+exit $?
+

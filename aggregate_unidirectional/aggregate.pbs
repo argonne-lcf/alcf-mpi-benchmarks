@@ -1,0 +1,7 @@
+#PBS -N aggregate
+#PBS -l nodes=18,walltime=0:10
+#PBS -q large
+
+cd $PBS_O_WORKDIR
+cat $PBS_NODEFILE
+aprun -n 72 -N 4 ./aggregate

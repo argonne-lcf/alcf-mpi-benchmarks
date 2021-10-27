@@ -1,0 +1,23 @@
+Jobid: 6103
+qsub --mode script -A Performance -n 12 -t 0:20 -O topo -q cache-quad topo.cobalt
+Thu Aug 18 18:00:42 2016 +0000 (UTC) submitted with cwd set to: /lus/theta-fs0/home/morozov/Work/ALCF_MPI_Benchmark_v1.02.Theta/test
+jobid 6103 submitted from terminal /dev/pts/7
+Thu Aug 18 18:01:44 2016 +0000 (UTC) 
+Thu Aug 18 18:01:44 2016 +0000 (UTC) Command: '/lus/theta-fs0/home/morozov/Work/ALCF_MPI_Benchmark_v1.02.Theta/test/topo.cobalt'
+Thu Aug 18 18:01:44 2016 +0000 (UTC) 
+Thu Aug 18 18:01:44 2016 +0000 (UTC) Environment:
+Thu Aug 18 18:01:44 2016 +0000 (UTC) SHELL=/bin/bash
+Thu Aug 18 18:01:44 2016 +0000 (UTC) COBALT_PARTNAME=2801-2812
+Thu Aug 18 18:01:44 2016 +0000 (UTC) COBALT_JOBID=6103
+Thu Aug 18 18:01:44 2016 +0000 (UTC) COBALT_STARTTIME=1471543287
+Thu Aug 18 18:01:44 2016 +0000 (UTC) LOGNAME=morozov
+Thu Aug 18 18:01:44 2016 +0000 (UTC) USER=morozov
+Thu Aug 18 18:01:44 2016 +0000 (UTC) COBALT_ENDTIME=1471544487
+Thu Aug 18 18:01:44 2016 +0000 (UTC) COBALT_PARTSIZE=12
+Thu Aug 18 18:01:44 2016 +0000 (UTC) HOME=/home/morozov
+Thu Aug 18 18:01:44 2016 +0000 (UTC) COBALT_JOBSIZE=12
+Thu Aug 18 18:01:44 2016 +0000 (UTC) 
+Thu Aug 18 18:01:44 2016 +0000 (UTC) Info: stdin received from /dev/null
+Thu Aug 18 18:01:44 2016 +0000 (UTC) Info: stdout sent to /lus/theta-fs0/home/morozov/Work/ALCF_MPI_Benchmark_v1.02.Theta/test/topo.output
+Thu Aug 18 18:01:44 2016 +0000 (UTC) Info: stderr sent to /lus/theta-fs0/home/morozov/Work/ALCF_MPI_Benchmark_v1.02.Theta/test/topo.error
+Thu Aug 18 18:01:44 2016 +0000 (UTC) 

@@ -1,0 +1,22 @@
++ rpn=1
++ aprun -N 1 -n 96 ./collectives
+[NID 01096] 2016-08-19 19:21:57 Apid 1588350: initiated application termination
++ rpn=2
++ aprun -N 2 -n 192 ./collectives
+[NID 01136] 2016-08-19 19:22:47 Apid 1588356: initiated application termination
++ rpn=4
++ aprun -N 4 -n 384 ./collectives
+[NID 01183] 2016-08-19 19:23:40 Apid 1588363: initiated application termination
++ rpn=8
++ aprun -N 8 -n 768 ./collectives
+[NID 01127] 2016-08-19 19:24:42 Apid 1588371: initiated application termination
++ rpn=16
++ aprun -N 16 -n 1536 ./collectives
+[NID 01178] 2016-08-19 19:25:44 Apid 1588383: initiated application termination
++ rpn=32
++ aprun -N 32 -n 3072 ./collectives
+[NID 01099] 2016-08-19 19:26:49 Apid 1588391: initiated application termination
++ rpn=64
++ aprun -N 64 -n 6144 ./collectives
+[NID 01091] 2016-08-19 19:28:09 Apid 1588402: initiated application termination
++ exit 137

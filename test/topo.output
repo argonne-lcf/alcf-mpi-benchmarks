@@ -1,0 +1,4 @@
+Copyright (C) 2009-2016 Intel Corporation. All rights reserved.
+Intel(R) VTune(TM) Amplifier XE 2016 (build 470476)
+Application 1583040 exit codes: 6
+Application 1583040 resources: utime ~120s, stime ~36s, Rss ~109212, inblocks ~48872, outblocks ~55584

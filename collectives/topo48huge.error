@@ -1,0 +1,42 @@
++ module load craype-hugepages8M
+++ /opt/cray/pe/modules/3.2.10.4/bin/modulecmd bash load craype-hugepages8M
++ eval HUGETLB_DEFAULT_PAGE_SIZE=8M ';export' 'HUGETLB_DEFAULT_PAGE_SIZE;HUGETLB_ELFMAP=W' ';export' 'HUGETLB_ELFMAP;HUGETLB_FORCE_ELFMAP=yes+' ';export' 'HUGETLB_FORCE_ELFMAP;HUGETLB_MORECORE=yes' ';export' 'HUGETLB_MORECORE;HUGETLB_MORECORE_HEAPBASE=10000000000' ';export' 'HUGETLB_MORECORE_HEAPBASE;LOADEDMODULES=modules/3.2.10.4:alps/6.1.6-20.1:nodestat/2.2-2.40:sdb/2.2.1-3.119:udreg/2.3.2-4.6:ugni/6.0.12-2.1:gni-headers/5.0.7-3.1:dmapp/7.1.0-12.37:xpmem/0.1-4.5:llm/20.2.4-3.18:nodehealth/5.2.0-5.46:system-config/2.2.18-3.35:sysadm/2.2.2-3.39:Base-opts/2.1.3-2.16:intel/16.0.3.210:craype-network-aries:craype/2.5.6:cray-libsci/16.07.1:pmi/5.0.10-1.0000.11050.0.0.ari:atp/2.0.2:PrgEnv-intel/6.0.3:craype-mic-knl:cray-mpich/7.4.2:craype-hugepages8M' ';export' 'LOADEDMODULES;PE_HUGEPAGES_PAGE_SIZE=0x20000000' ';export' 'PE_HUGEPAGES_PAGE_SIZE;PE_HUGEPAGES_PKGCONFIG_VARIABLES=PE_HUGEPAGES_TEXT_SEGMENT:PE_HUGEPAGES_PAGE_SIZE' ';export' 'PE_HUGEPAGES_PKGCONFIG_VARIABLES;PE_HUGEPAGES_TEXT_SEGMENT=0x20000000' ';export' 'PE_HUGEPAGES_TEXT_SEGMENT;PE_PKGCONFIG_LIBS=craype-hugepages:mpich:AtpSigHandler:libsci_mpi:libsci' ';export' 'PE_PKGCONFIG_LIBS;PE_PKGCONFIG_PRODUCTS=PE_HUGEPAGES:PE_MPICH:PE_LIBSCI' ';export' 'PE_PKGCONFIG_PRODUCTS;PE_PRODUCT_LIST=CRAYPE_MIC-KNL:CRAY_PMI:CRAY_LIBSCI:CRAYPE:INTEL:CRAY_XPMEM:CRAY_DMAPP:CRAY_UGNI:CRAY_UDREG:CRAY_ALPS:HUGETLB8M' ';export' 'PE_PRODUCT_LIST;_LMFILES_=/opt/cray/pe/modulefiles/modules/3.2.10.4:/opt/cray/ari/modulefiles/alps/6.1.6-20.1:/opt/cray/ari/modulefiles/nodestat/2.2-2.40:/opt/cray/ari/modulefiles/sdb/2.2.1-3.119:/opt/cray/ari/modulefiles/udreg/2.3.2-4.6:/opt/cray/ari/modulefiles/ugni/6.0.12-2.1:/opt/cray/ari/modulefiles/gni-headers/5.0.7-3.1:/opt/cray/ari/modulefiles/dmapp/7.1.0-12.37:/opt/cray/ari/modulefiles/xpmem/0.1-4.5:/opt/cray/ari/modulefiles/llm/20.2.4-3.18:/opt/cray/ari/modulefiles/nodehealth/5.2.0-5.46:/opt/cray/ari/modulefiles/system-config/2.2.18-3.35:/opt/cray/ari/modulefiles/sysadm/2.2.2-3.39:/opt/modulefiles/Base-opts/2.1.3-2.16:/opt/modulefiles/intel/16.0.3.210:/opt/cray/pe/craype/2.5.6/modulefiles/craype-network-aries:/opt/cray/pe/modulefiles/craype/2.5.6:/opt/cray/pe/modulefiles/cray-libsci/16.07.1:/opt/cray/pe/ari/modulefiles/pmi/5.0.10-1.0000.11050.0.0.ari:/opt/cray/pe/modulefiles/atp/2.0.2:/opt/cray/pe/modulefiles/PrgEnv-intel/6.0.3:/opt/cray/pe/craype/2.5.6/modulefiles/craype-mic-knl:/opt/cray/pe/modulefiles/cray-mpich/7.4.2:/opt/cray/pe/craype/2.5.6/modulefiles/craype-hugepages8M' ';export' '_LMFILES_;'
+++ HUGETLB_DEFAULT_PAGE_SIZE=8M
+++ export HUGETLB_DEFAULT_PAGE_SIZE
+++ HUGETLB_ELFMAP=W
+++ export HUGETLB_ELFMAP
+++ HUGETLB_FORCE_ELFMAP=yes+
+++ export HUGETLB_FORCE_ELFMAP
+++ HUGETLB_MORECORE=yes
+++ export HUGETLB_MORECORE
+++ HUGETLB_MORECORE_HEAPBASE=10000000000
+++ export HUGETLB_MORECORE_HEAPBASE
+++ LOADEDMODULES=modules/3.2.10.4:alps/6.1.6-20.1:nodestat/2.2-2.40:sdb/2.2.1-3.119:udreg/2.3.2-4.6:ugni/6.0.12-2.1:gni-headers/5.0.7-3.1:dmapp/7.1.0-12.37:xpmem/0.1-4.5:llm/20.2.4-3.18:nodehealth/5.2.0-5.46:system-config/2.2.18-3.35:sysadm/2.2.2-3.39:Base-opts/2.1.3-2.16:intel/16.0.3.210:craype-network-aries:craype/2.5.6:cray-libsci/16.07.1:pmi/5.0.10-1.0000.11050.0.0.ari:atp/2.0.2:PrgEnv-intel/6.0.3:craype-mic-knl:cray-mpich/7.4.2:craype-hugepages8M
+++ export LOADEDMODULES
+++ PE_HUGEPAGES_PAGE_SIZE=0x20000000
+++ export PE_HUGEPAGES_PAGE_SIZE
+++ PE_HUGEPAGES_PKGCONFIG_VARIABLES=PE_HUGEPAGES_TEXT_SEGMENT:PE_HUGEPAGES_PAGE_SIZE
+++ export PE_HUGEPAGES_PKGCONFIG_VARIABLES
+++ PE_HUGEPAGES_TEXT_SEGMENT=0x20000000
+++ export PE_HUGEPAGES_TEXT_SEGMENT
+++ PE_PKGCONFIG_LIBS=craype-hugepages:mpich:AtpSigHandler:libsci_mpi:libsci
+++ export PE_PKGCONFIG_LIBS
+++ PE_PKGCONFIG_PRODUCTS=PE_HUGEPAGES:PE_MPICH:PE_LIBSCI
+++ export PE_PKGCONFIG_PRODUCTS
+++ PE_PRODUCT_LIST=CRAYPE_MIC-KNL:CRAY_PMI:CRAY_LIBSCI:CRAYPE:INTEL:CRAY_XPMEM:CRAY_DMAPP:CRAY_UGNI:CRAY_UDREG:CRAY_ALPS:HUGETLB8M
+++ export PE_PRODUCT_LIST
+++ _LMFILES_=/opt/cray/pe/modulefiles/modules/3.2.10.4:/opt/cray/ari/modulefiles/alps/6.1.6-20.1:/opt/cray/ari/modulefiles/nodestat/2.2-2.40:/opt/cray/ari/modulefiles/sdb/2.2.1-3.119:/opt/cray/ari/modulefiles/udreg/2.3.2-4.6:/opt/cray/ari/modulefiles/ugni/6.0.12-2.1:/opt/cray/ari/modulefiles/gni-headers/5.0.7-3.1:/opt/cray/ari/modulefiles/dmapp/7.1.0-12.37:/opt/cray/ari/modulefiles/xpmem/0.1-4.5:/opt/cray/ari/modulefiles/llm/20.2.4-3.18:/opt/cray/ari/modulefiles/nodehealth/5.2.0-5.46:/opt/cray/ari/modulefiles/system-config/2.2.18-3.35:/opt/cray/ari/modulefiles/sysadm/2.2.2-3.39:/opt/modulefiles/Base-opts/2.1.3-2.16:/opt/modulefiles/intel/16.0.3.210:/opt/cray/pe/craype/2.5.6/modulefiles/craype-network-aries:/opt/cray/pe/modulefiles/craype/2.5.6:/opt/cray/pe/modulefiles/cray-libsci/16.07.1:/opt/cray/pe/ari/modulefiles/pmi/5.0.10-1.0000.11050.0.0.ari:/opt/cray/pe/modulefiles/atp/2.0.2:/opt/cray/pe/modulefiles/PrgEnv-intel/6.0.3:/opt/cray/pe/craype/2.5.6/modulefiles/craype-mic-knl:/opt/cray/pe/modulefiles/cray-mpich/7.4.2:/opt/cray/pe/craype/2.5.6/modulefiles/craype-hugepages8M
+++ export _LMFILES_
++ rpn=1
++ aprun -N 1 -n 48 ./collectives
+[NID 00109] 2016-09-22 04:14:18 Apid 1721204: initiated application termination
++ rpn=4
++ aprun -N 4 -n 192 ./collectives
+[NID 00094] 2016-09-22 04:14:41 Apid 1721205: initiated application termination
++ rpn=16
++ aprun -N 16 -n 768 ./collectives
+[NID 00088] 2016-09-22 04:15:10 Apid 1721206: initiated application termination
++ rpn=64
++ aprun -N 64 -n 3072 ./collectives
+[NID 00099] 2016-09-22 04:15:53 Apid 1721207: initiated application termination
++ exit 137

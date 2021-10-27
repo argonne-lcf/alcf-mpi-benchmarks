@@ -1,0 +1,217 @@
+PPN: 1 size: 48       MPI_COMM_WORLD: Barrier                 min, max, us:             214.75               214.76
+PPN: 1 size: 48       MPI_COMM_WORLD: Broadcast    2 doubles, min, max, us:              37.98                40.12
+PPN: 1 size: 48       MPI_COMM_WORLD: Broadcast 1024 doubles, min, max, us:             218.62               218.64
+PPN: 1 size: 48       MPI_COMM_WORLD: Allreduce    1 double , min, max, us:             214.10               214.11
+PPN: 1 size: 48       MPI_COMM_WORLD: Allreduce  256 double , min, max, us:             316.98               316.99
+
+PPN: 1 size: 48 Copy of MPI_COMM_WORLD: Barrier                 min, max, us:              49.03                49.03
+PPN: 1 size: 48 Copy of MPI_COMM_WORLD: Broadcast    2 doubles, min, max, us:              26.64                26.65
+PPN: 1 size: 48 Copy of MPI_COMM_WORLD: Broadcast 1024 doubles, min, max, us:             441.72               441.74
+PPN: 1 size: 48 Copy of MPI_COMM_WORLD: Allreduce    1 double , min, max, us:             138.49               138.50
+PPN: 1 size: 48 Copy of MPI_COMM_WORLD: Allreduce  256 double , min, max, us:              79.30                79.31
+
+PPN: 1 size: 24      2Half1 of WORLD: Barrier                 min, max, us:              74.78                74.78
+PPN: 1 size: 24      2Half1 of WORLD: Broadcast    2 doubles, min, max, us:              27.97                27.98
+PPN: 1  size: 24      2Half1 of WORLD: Broadcast 1024 doubles, min, max, us:              95.74                95.75
+PPN: 1  size: 24      2Half1 of WORLD: Allreduce    1 double , min, max, us:              74.79                74.79
+PPN: 1  size: 24      2Half1 of WORLD: Allreduce  256 double , min, max, us:             313.26               313.27
+
+PPN: 1 size: 24      2Half0 of WORLD: Barrier                 min, max, us:              79.40                79.40
+PPN: 1 size: 24      2Half0 of WORLD: Broadcast    2 doubles, min, max, us:              30.44                30.48
+PPN: 1  size: 24      2Half0 of WORLD: Broadcast 1024 doubles, min, max, us:             368.74               368.76
+PPN: 1  size: 24      2Half0 of WORLD: Allreduce    1 double , min, max, us:             109.01               109.01
+PPN: 1  size: 24      2Half0 of WORLD: Allreduce  256 double , min, max, us:              59.44                59.45
+
+PPN: 1  size: 12      4Half1 of WORLD: Barrier                 min, max, us:              23.22                23.22
+PPN: 1  size: 12      4Half1 of WORLD: Broadcast    2 doubles, min, max, us:              13.01                13.01
+PPN: 1  size: 12      4Half2 of WORLD: Barrier                 min, max, us:              23.46                23.46
+PPN: 1  size: 12      4Half2 of WORLD: Broadcast    2 doubles, min, max, us:              13.08                13.08
+PPN: 1  size: 12      4Half2 of WORLD: Broadcast 1024 doubles, min, max, us:              39.14                39.14
+PPN: 1  size: 12      4Half2 of WORLD: Allreduce    1 double , min, max, us:              34.90                34.90
+PPN: 1  size: 12      4Half2 of WORLD: Allreduce  256 double , min, max, us:              45.54                45.54
+
+PPN: 1  size: 12      4Half3 of WORLD: Barrier                 min, max, us:              23.26                23.26
+PPN: 1  size: 12      4Half3 of WORLD: Broadcast    2 doubles, min, max, us:              13.16                13.16
+PPN: 1  size: 12      4Half3 of WORLD: Broadcast 1024 doubles, min, max, us:              39.45                39.45
+PPN: 1  size: 12      4Half3 of WORLD: Allreduce    1 double , min, max, us:              34.91                34.91
+PPN: 1  size: 12      4Half3 of WORLD: Allreduce  256 double , min, max, us:              45.56                45.56
+
+PPN: 1  size: 12      4Half1 of WORLD: Broadcast 1024 doubles, min, max, us:              38.39                38.39
+PPN: 1  size: 12      4Half1 of WORLD: Allreduce    1 double , min, max, us:              33.92                33.92
+PPN: 1  size: 12      4Half1 of WORLD: Allreduce  256 double , min, max, us:              45.42                45.42
+
+PPN: 1  size: 12      4Half0 of WORLD: Barrier                 min, max, us:              24.22                24.22
+PPN: 1  size: 12      4Half0 of WORLD: Broadcast    2 doubles, min, max, us:              14.13                14.13
+PPN: 1  size: 12      4Half0 of WORLD: Broadcast 1024 doubles, min, max, us:              69.51                69.52
+PPN: 1  size: 12      4Half0 of WORLD: Allreduce    1 double , min, max, us:              34.48                34.48
+PPN: 1  size: 12      4Half0 of WORLD: Allreduce  256 double , min, max, us:              49.53                49.53
+
+ACCEPTANCE FAILED 
+SUMMARY
+test1 failed
+test2 failed
+*********************************************
+Application 1599360 exit signals: Killed
+Application 1599360 resources: utime ~78s, stime ~48s, Rss ~13624, inblocks ~0, outblocks ~0
+PPN: 4 size: 192       MPI_COMM_WORLD: Barrier                 min, max, us:              47.73                47.74
+PPN: 4 size: 192       MPI_COMM_WORLD: Broadcast    2 doubles, min, max, us:              23.88                23.88
+PPN: 4 size: 192       MPI_COMM_WORLD: Broadcast 1024 doubles, min, max, us:             171.76               171.77
+PPN: 4 size: 192       MPI_COMM_WORLD: Allreduce    1 double , min, max, us:              53.42                53.42
+PPN: 4 size: 192       MPI_COMM_WORLD: Allreduce  256 double , min, max, us:              97.89                97.90
+
+PPN: 4 size: 192 Copy of MPI_COMM_WORLD: Barrier                 min, max, us:              46.14                46.14
+PPN: 4 size: 192 Copy of MPI_COMM_WORLD: Broadcast    2 doubles, min, max, us:              22.91                22.91
+PPN: 4 size: 192 Copy of MPI_COMM_WORLD: Broadcast 1024 doubles, min, max, us:             160.02               160.03
+PPN: 4 size: 192 Copy of MPI_COMM_WORLD: Allreduce    1 double , min, max, us:              53.40                53.41
+PPN: 4 size: 192 Copy of MPI_COMM_WORLD: Allreduce  256 double , min, max, us:              97.46                97.46
+
+PPN: 4 size: 96      2Half1 of WORLD: Barrier                 min, max, us:              32.67                32.67
+PPN: 4 size: 96      2Half1 of WORLD: Broadcast    2 doubles, min, max, us:              17.15                17.15
+PPN: 4  size: 96      2Half1 of WORLD: Broadcast 1024 doubles, min, max, us:              68.70                68.70
+PPN: 4  size: 96      2Half1 of WORLD: Allreduce    1 double , min, max, us:              43.22                43.22
+PPN: 4  size: 96      2Half1 of WORLD: Allreduce  256 double , min, max, us:              70.58                70.58
+
+PPN: 4 size: 96      2Half0 of WORLD: Barrier                 min, max, us:              35.61                35.61
+PPN: 4 size: 96      2Half0 of WORLD: Broadcast    2 doubles, min, max, us:              19.88                19.88
+PPN: 4  size: 96      2Half0 of WORLD: Broadcast 1024 doubles, min, max, us:             133.18               133.18
+PPN: 4  size: 96      2Half0 of WORLD: Allreduce    1 double , min, max, us:              43.74                43.74
+PPN: 4  size: 96      2Half0 of WORLD: Allreduce  256 double , min, max, us:              84.75                84.75
+
+PPN: 4  size: 48      4Half1 of WORLD: Barrier                 min, max, us:              25.01                25.01
+PPN: 4  size: 48      4Half1 of WORLD: Broadcast    2 doubles, min, max, us:              13.38                13.93
+PPN: 4  size: 48      4Half1 of WORLD: Broadcast 1024 doubles, min, max, us:              47.79                47.79
+PPN: 4  size: 48      4Half1 of WORLD: Allreduce    1 double , min, max, us:              35.19                35.19
+PPN: 4  size: 48      4Half1 of WORLD: Allreduce  256 double , min, max, us:              59.15                59.15
+
+PPN: 4  size: 48      4Half2 of WORLD: Barrier                 min, max, us:              25.03                25.03
+PPN: 4  size: 48      4Half2 of WORLD: Broadcast    2 doubles, min, max, us:              13.60                13.89
+PPN: 4  size: 48      4Half2 of WORLD: Broadcast 1024 doubles, min, max, us:              47.83                47.84
+PPN: 4  size: 48      4Half2 of WORLD: Allreduce    1 double , min, max, us:              35.43                35.43
+PPN: 4  size: 48      4Half2 of WORLD: Allreduce  256 double , min, max, us:              59.54                59.54
+
+PPN: 4  size: 48      4Half3 of WORLD: Barrier                 min, max, us:              25.64                25.64
+PPN: 4  size: 48      4Half3 of WORLD: Broadcast    2 doubles, min, max, us:              13.67                13.89
+PPN: 4  size: 48      4Half3 of WORLD: Broadcast 1024 doubles, min, max, us:              47.81                47.81
+PPN: 4  size: 48      4Half3 of WORLD: Allreduce    1 double , min, max, us:              35.42                35.42
+PPN: 4  size: 48      4Half3 of WORLD: Allreduce  256 double , min, max, us:              60.01                60.01
+
+PPN: 4  size: 48      4Half0 of WORLD: Barrier                 min, max, us:              27.57                27.57
+PPN: 4  size: 48      4Half0 of WORLD: Broadcast    2 doubles, min, max, us:              16.47                16.47
+PPN: 4  size: 48      4Half0 of WORLD: Broadcast 1024 doubles, min, max, us:              94.14                94.16
+PPN: 4  size: 48      4Half0 of WORLD: Allreduce    1 double , min, max, us:              36.87                36.87
+PPN: 4  size: 48      4Half0 of WORLD: Allreduce  256 double , min, max, us:              75.28                75.28
+
+ACCEPTANCE FAILED 
+SUMMARY
+test1 failed
+*********************************************
+Application 1599362 exit signals: Killed
+Application 1599362 resources: utime ~100s, stime ~48s, Rss ~13624, inblocks ~0, outblocks ~0
+PPN: 16 size: 768       MPI_COMM_WORLD: Barrier                 min, max, us:              49.63                49.65
+PPN: 16 size: 768       MPI_COMM_WORLD: Broadcast    2 doubles, min, max, us:              22.87                22.88
+PPN: 16 size: 768       MPI_COMM_WORLD: Broadcast 1024 doubles, min, max, us:             164.25               164.25
+PPN: 16 size: 768       MPI_COMM_WORLD: Allreduce    1 double , min, max, us:              55.57                55.57
+PPN: 16 size: 768       MPI_COMM_WORLD: Allreduce  256 double , min, max, us:             193.01               193.03
+
+PPN: 16 size: 768 Copy of MPI_COMM_WORLD: Barrier                 min, max, us:              48.51                48.51
+PPN: 16 size: 768 Copy of MPI_COMM_WORLD: Broadcast    2 doubles, min, max, us:              24.07                24.08
+PPN: 16 size: 768 Copy of MPI_COMM_WORLD: Broadcast 1024 doubles, min, max, us:             144.87               144.88
+PPN: 16 size: 768 Copy of MPI_COMM_WORLD: Allreduce    1 double , min, max, us:              54.41                54.41
+PPN: 16 size: 768 Copy of MPI_COMM_WORLD: Allreduce  256 double , min, max, us:             190.60               190.60
+
+PPN: 16 size: 384      2Half1 of WORLD: Barrier                 min, max, us:              34.97                34.97
+PPN: 16 size: 384      2Half1 of WORLD: Broadcast    2 doubles, min, max, us:              17.15                17.15
+PPN: 16  size: 384      2Half1 of WORLD: Broadcast 1024 doubles, min, max, us:              76.54                76.54
+PPN: 16  size: 384      2Half1 of WORLD: Allreduce    1 double , min, max, us:              45.06                45.06
+PPN: 16  size: 384      2Half1 of WORLD: Allreduce  256 double , min, max, us:             147.16               147.16
+
+PPN: 16 size: 384      2Half0 of WORLD: Barrier                 min, max, us:              38.56                38.56
+PPN: 16 size: 384      2Half0 of WORLD: Broadcast    2 doubles, min, max, us:              21.39                21.39
+PPN: 16  size: 384      2Half0 of WORLD: Broadcast 1024 doubles, min, max, us:             125.60               125.60
+PPN: 16  size: 384      2Half0 of WORLD: Allreduce    1 double , min, max, us:              45.02                45.03
+PPN: 16  size: 384      2Half0 of WORLD: Allreduce  256 double , min, max, us:             160.91               160.91
+
+PPN: 16  size: 192      4Half1 of WORLD: Barrier                 min, max, us:              26.46                26.46
+PPN: 16  size: 192      4Half1 of WORLD: Broadcast    2 doubles, min, max, us:              14.02                14.06
+PPN: 16  size: 192      4Half1 of WORLD: Broadcast 1024 doubles, min, max, us:              58.05                58.05
+PPN: 16  size: 192      4Half1 of WORLD: Allreduce    1 double , min, max, us:              36.36                36.36
+PPN: 16  size: 192      4Half1 of WORLD: Allreduce  256 double , min, max, us:             128.20               128.20
+
+PPN: 16  size: 192      4Half3 of WORLD: Barrier                 min, max, us:              27.42                27.42
+PPN: 16  size: 192      4Half3 of WORLD: Broadcast    2 doubles, min, max, us:              13.98                14.15
+PPN: 16  size: 192      4Half3 of WORLD: Broadcast 1024 doubles, min, max, us:              57.98                57.98
+PPN: 16  size: 192      4Half3 of WORLD: Allreduce    1 double , min, max, us:              36.42                36.42
+PPN: 16  size: 192      4Half3 of WORLD: Allreduce  256 double , min, max, us:             128.41               128.42
+
+PPN: 16  size: 192      4Half2 of WORLD: Barrier                 min, max, us:              27.55                27.56
+PPN: 16  size: 192      4Half2 of WORLD: Broadcast    2 doubles, min, max, us:              13.97                14.13
+PPN: 16  size: 192      4Half2 of WORLD: Broadcast 1024 doubles, min, max, us:              58.11                58.11
+PPN: 16  size: 192      4Half2 of WORLD: Allreduce    1 double , min, max, us:              36.69                36.70
+PPN: 16  size: 192      4Half2 of WORLD: Allreduce  256 double , min, max, us:             129.12               129.12
+
+PPN: 16  size: 192      4Half0 of WORLD: Barrier                 min, max, us:              30.37                30.37
+PPN: 16  size: 192      4Half0 of WORLD: Broadcast    2 doubles, min, max, us:              17.20                17.20
+PPN: 16  size: 192      4Half0 of WORLD: Broadcast 1024 doubles, min, max, us:              94.01                94.06
+PPN: 16  size: 192      4Half0 of WORLD: Allreduce    1 double , min, max, us:              37.88                37.88
+PPN: 16  size: 192      4Half0 of WORLD: Allreduce  256 double , min, max, us:             142.34               142.35
+
+ACCEPTANCE FAILED 
+SUMMARY
+test1 failed
+*********************************************
+Application 1599363 exit signals: Killed
+Application 1599363 resources: utime ~25s, stime ~95s, Rss ~13624, inblocks ~0, outblocks ~0
+PPN: 64 size: 3072       MPI_COMM_WORLD: Barrier                 min, max, us:              76.87                76.87
+PPN: 64 size: 3072       MPI_COMM_WORLD: Broadcast    2 doubles, min, max, us:              27.51                27.57
+PPN: 64 size: 3072       MPI_COMM_WORLD: Broadcast 1024 doubles, min, max, us:             258.74               258.80
+PPN: 64 size: 3072       MPI_COMM_WORLD: Allreduce    1 double , min, max, us:              83.09                83.10
+PPN: 64 size: 3072       MPI_COMM_WORLD: Allreduce  256 double , min, max, us:             239.85               239.88
+
+PPN: 64 size: 3072 Copy of MPI_COMM_WORLD: Barrier                 min, max, us:              75.87                75.87
+PPN: 64 size: 3072 Copy of MPI_COMM_WORLD: Broadcast    2 doubles, min, max, us:              26.78                26.78
+PPN: 64 size: 3072 Copy of MPI_COMM_WORLD: Broadcast 1024 doubles, min, max, us:             251.64               251.70
+PPN: 64 size: 3072 Copy of MPI_COMM_WORLD: Allreduce    1 double , min, max, us:              82.91                82.91
+PPN: 64 size: 3072 Copy of MPI_COMM_WORLD: Allreduce  256 double , min, max, us:             238.36               238.38
+
+PPN: 64 size: 1536      2Half1 of WORLD: Barrier                 min, max, us:              57.21                57.22
+PPN: 64 size: 1536      2Half1 of WORLD: Broadcast    2 doubles, min, max, us:              19.47                19.48
+PPN: 64  size: 1536      2Half1 of WORLD: Broadcast 1024 doubles, min, max, us:             130.14               130.20
+PPN: 64  size: 1536      2Half1 of WORLD: Allreduce    1 double , min, max, us:              64.61                64.61
+PPN: 64  size: 1536      2Half1 of WORLD: Allreduce  256 double , min, max, us:             187.51               187.52
+
+PPN: 64 size: 1536      2Half0 of WORLD: Barrier                 min, max, us:              58.39                58.40
+PPN: 64 size: 1536      2Half0 of WORLD: Broadcast    2 doubles, min, max, us:              23.11                23.12
+PPN: 64  size: 1536      2Half0 of WORLD: Broadcast 1024 doubles, min, max, us:             235.17               235.18
+PPN: 64  size: 1536      2Half0 of WORLD: Allreduce    1 double , min, max, us:              63.68                63.68
+PPN: 64  size: 1536      2Half0 of WORLD: Allreduce  256 double , min, max, us:             199.45               199.46
+
+PPN: 64  size: 768      4Half1 of WORLD: Barrier                 min, max, us:              40.97                40.98
+PPN: 64  size: 768      4Half1 of WORLD: Broadcast    2 doubles, min, max, us:              15.20                15.53
+PPN: 64  size: 768      4Half1 of WORLD: Broadcast 1024 doubles, min, max, us:             111.48               111.49
+PPN: 64  size: 768      4Half1 of WORLD: Allreduce    1 double , min, max, us:              47.92                47.92
+PPN: 64  size: 768      4Half1 of WORLD: Allreduce  256 double , min, max, us:             151.08               151.09
+
+PPN: 64  size: 768      4Half2 of WORLD: Barrier                 min, max, us:              40.41                40.42
+PPN: 64  size: 768      4Half2 of WORLD: Broadcast    2 doubles, min, max, us:              15.48                15.55
+PPN: 64  size: 768      4Half2 of WORLD: Broadcast 1024 doubles, min, max, us:             112.07               112.08
+PPN: 64  size: 768      4Half2 of WORLD: Allreduce    1 double , min, max, us:              48.43                48.43
+PPN: 64  size: 768      4Half2 of WORLD: Allreduce  256 double , min, max, us:             152.30               152.30
+
+PPN: 64  size: 768      4Half3 of WORLD: Barrier                 min, max, us:              43.82                43.82
+PPN: 64  size: 768      4Half3 of WORLD: Broadcast    2 doubles, min, max, us:              15.37                15.47
+PPN: 64  size: 768      4Half3 of WORLD: Broadcast 1024 doubles, min, max, us:             115.00               115.06
+PPN: 64  size: 768      4Half3 of WORLD: Allreduce    1 double , min, max, us:              50.42                50.42
+PPN: 64  size: 768      4Half3 of WORLD: Allreduce  256 double , min, max, us:             152.01               152.01
+
+PPN: 64  size: 768      4Half0 of WORLD: Barrier                 min, max, us:              45.78                45.78
+PPN: 64  size: 768      4Half0 of WORLD: Broadcast    2 doubles, min, max, us:              22.03                22.04
+PPN: 64  size: 768      4Half0 of WORLD: Broadcast 1024 doubles, min, max, us:             201.85               201.89
+PPN: 64  size: 768      4Half0 of WORLD: Allreduce    1 double , min, max, us:              49.65                49.65
+PPN: 64  size: 768      4Half0 of WORLD: Allreduce  256 double , min, max, us:             172.48               172.48
+
+ACCEPTANCE FAILED 
+SUMMARY
+test1 failed
+*********************************************
+Application 1599364 exit signals: Killed
+Application 1599364 resources: utime ~74s, stime ~2007s, Rss ~13624, inblocks ~0, outblocks ~0

@@ -1,0 +1,20 @@
+ppn = 1: Aries 3: nodes 1: min/max aggregate  11.311243 / 11.311243 GB/s
+ppn = 1: Aries 4: nodes 2: min/max aggregate  8.039855 / 8.064353 GB/s
+ppn = 1: Aries 1: nodes 1: min/max aggregate  0.000000 / 0.000000 GB/s
+Application 1604707 exit signals: Killed
+Application 1604707 resources: utime ~1s, stime ~12s, Rss ~11396, inblocks ~0, outblocks ~0
+ppn = 4: Aries 3: nodes 1: min/max aggregate  11.756905 / 11.756905 GB/s
+ppn = 4: Aries 1: nodes 1: min/max aggregate  0.000000 / 0.000000 GB/s
+ppn = 4: Aries 4: nodes 2: min/max aggregate  8.750216 / 8.990382 GB/s
+Application 1604708 exit signals: Killed
+Application 1604708 resources: utime ~2s, stime ~12s, Rss ~6572, inblocks ~0, outblocks ~0
+ppn = 16: Aries 3: nodes 1: min/max aggregate  11.610239 / 11.610239 GB/s
+ppn = 16: Aries 1: nodes 1: min/max aggregate  0.000000 / 0.000000 GB/s
+ppn = 16: Aries 4: nodes 2: min/max aggregate  8.994546 / 9.441714 GB/s
+Application 1604709 exit signals: Killed
+Application 1604709 resources: utime ~6s, stime ~12s, Rss ~11032, inblocks ~0, outblocks ~0
+ppn = 64: Aries 4: nodes 2: min/max aggregate  9.363976 / 9.472373 GB/s
+ppn = 64: Aries 1: nodes 1: min/max aggregate  0.000000 / 0.000000 GB/s
+ppn = 64: Aries 3: nodes 1: min/max aggregate  11.692514 / 11.692514 GB/s
+Application 1604710 exit signals: Killed
+Application 1604710 resources: utime ~23s, stime ~79s, Rss ~13344, inblocks ~0, outblocks ~0

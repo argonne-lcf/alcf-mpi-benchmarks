@@ -1,0 +1,91 @@
+Current Allocation Status at Wed Aug 24 22:33:48 2016
+
+     C0-0             C1-0             C2-0             C3-0             
+  n3 aaa  aaaaaaaaaXa aaaaaaaaaaaaaaaa aaa  aaaaaaaaaaa bbbbbbbbbbbbbbbb 
+  n2 aaaSSaaaaaaaaaaa aaaaaaaaaaaaaaaa aaaSSaaaaaaaaaaa bbbbbbbbbbbbbbbb 
+  n1 aaaSSaaaaaaaaaaa aaaaaaaaaaaaaaaa aaaSSaaaaaaaaaaa bbbbbbbbbbbbbbbb 
+c2n0 aaa  aaaaaaaaaaa aaaaaaaaaaaaaaaa aaa  aaaaaaaaaaa bbbbbbbbbbbbbbbb 
+  n3 aaa  aaaaaaaaaaa aaaaaaaaaaaaaaaa aaa  aaaaaaaaaaa aaaaaaaaaaaaaaab 
+  n2 aaaSSaaaaaaaaaaa aaaaaaaaaaaaaaaa aaaSSaaaaaaaaaaa aaaaaaaaaaaaaaab 
+  n1 aaaSSaaaaaaaaaaa aaaaaaaaaaaaaaaa aaaSSaaaaaaaaaaa aaaaaaaaaaaaaaab 
+c1n0 aaa  aaaaaaaaaaa baaaaaaaaaaaaaaa aaa  aaaaaaaaaaa aaaaaaaaaaaaaXaa 
+  n3 aaa  aaaaaaaSaaa aaaaaaaaaaaaaaaa aaa  aaaaaaaaaaa aaaaaaaaaaaaaaaa 
+  n2 aaaSSaaaaaaaSaaa aaaaaaaaaaaaaaaa aaaSSaaaaaaaaaaa aaaaaaaaaaaaaaaa 
+  n1 aaaSSaaaaaaaSaaa aaaaaaaaaaaaaaaa aaaSSaaaaaaaaaaa aaaaaaaaaaaaaaaa 
+c0n0 -aa  aaaaaaaSaaa aaaaaaaaaaaaaaaa aaa  aaaaaaaaaaa aaaaaaaaaaaaaaaa 
+    s0123456789abcdef 0123456789abcdef 0123456789abcdef 0123456789abcdef 
+
+     C4-0             C5-0             C6-0             C7-0             
+  n3 bbb  bbbbbaaaaaa aaaaaaaaaaaaaaaa aaa  aaaaaaaaaaa bbbbbbbbbbbbbbbb 
+  n2 bbbSSbbbbbaaaaaa aaaaaaaaaaaaaaaa aaaSSaaaaaaaaaaa abbbbbbbbbbbbbbb 
+  n1 bbbSYbbbbbbaaaaa aaaaaaaaaaaaaaaa aaaSYaaaaaaaaaaa abbbbbbbbbbbbbbb 
+c2n0 bbb  bbbbbbaaaaa aaaaaaaaaaaaaaaa aaa  aaaaaaaaaaa abbbbbbbbbbbbbbb 
+  n3 bbb  bbbbbbbbbbb aaaaaaaaaaaaaaaa aaa  abbbbbbbbaa aaaaaaaaaaaaaaaa 
+  n2 bbbSSbbbbbbbbbbb aaaaaaaaaaaaaaaa aaaSSabbbbbbbbaa aaaaaaaaaaaaaaaa 
+  n1 bbbSSbbbbbbbbbbb aaaaaaaaaaaaaaaa aaaSSabbbbbbbbaa aaaaaaaaaaaaaaaa 
+c1n0 bbb  bbbbbbbbbbb aaaaaaaaaaaaaaaa aaa  aabbbbbbbba aaaaaaaaaaaaaaaa 
+  n3 bbb  bbbbbbbSbbb aaaaaaaaaaaaaaaa aaa  aaaaaaaaaaa aaaaaaaaaaaaaaaa 
+  n2 bbbSSbbbbbbbSbbb aaaaaaaaaaaaaaaa aaaSSaaaaaaaaaaa aaaaaaaaaaaaaaaa 
+  n1 bbbSSbbbbbbbSbbb aaaaaaaaaaaaaaaa aaaSSaaaaaaaaaaa aaaaaaaaaaaaaaaa 
+c0n0 bbb  bbbbbbbSbbb aaaaaaaaaaaaaaaa aaa  aaaaaaaaaaa aaaaaaaaaaaaaaaa 
+    s0123456789abcdef 0123456789abcdef 0123456789abcdef 0123456789abcdef 
+
+     C8-0             C9-0             C10-0            C11-0            
+  n3 bbb  bbbbbbbbbbb aaaaaaaaaaaaaaaa aaa  aaaaaaaaaaa baaaaaaaaaaaaaaa 
+  n2 bbbSSbbbbbbbbbbb aaaaaaaaaaaaaaaa aaaSSaaaaaaaaaaa baaaaaaaaaaaaaaa 
+  n1 bbbSSbbbbbbbbbbb aaaaaaaaaaaaaaaa aaaSSaaaaaaaaaaa baaaaaaaaaaaaaaa 
+c2n0 bbb  bbbbbbbbbbb aaaaaaaaaaaaaaaa aaa  aaaaaaaaaaa bbaaaaaaaaaaaaaa 
+  n3 bbb  bbbbbbbbbbb aaaaaaaaaaaaaaaa aaa  aaaaaaaaaaa aaaaaaaabbbbbbbb 
+  n2 bbbSSbbbbbbbbbbb baaaaaaaaaaaaaaa aaaSSaaaaaaaaaaa aaaaaaaabbbbbbbb 
+  n1 bbbSSbbbbbbbbbbb baaaaaaaaaaaaaaa aaaSSaaaaaaaaaaa aaaaaaaaabbbbbbb 
+c1n0 bbb  bbbbbbbbbbb baaaaaaaaaaaaaaa aaa  aaaaaaaaaaa aaaaaaaaabbbbbbb 
+  n3 bbb  bbbbbbbbbbb bbbbbbbbbbbbbbbb aaaa aaaaaaaaaaa aaaaaaaaaaaaaaaa 
+  n2 bbbSSbbbbbbbbbbb bbbbbbbbbbbbbbbb aaaaSaaaaaaaaaaa aaaaaaaaaaaaaaaa 
+  n1 bbbSSbbbbbbbbbbb bbbbbbbbbbbbbbbb aaaaSaaaaaaaaaaa aaaaaaaaaaaaaaaa 
+c0n0 bbb  bbbbbbbbbbb bbbbbbbbbbbbbbbb aaaa aaaaaaaaaaa aaaaaaaaaaaaaaaa 
+    s0123456789abcdef 0123456789abcdef 0123456789abcdef 0123456789abcdef 
+
+     C0-1             C1-1             C2-1             C3-1             
+  n3 bbb  bbbbbbbbbbb bbbbbbbbbbbbbbbb bbb  bbbbbbbbbbb aaaaaaaaaaaaaaaa 
+  n2 bbbSSbbbbbbbbbbb bbbbbbbbbbbbbbbb bbbSSbbbbbbbbbbb aaaaaaaaaaaaaaaa 
+  n1 bbbSSbbbbbbbbbbb bbbbbbbbbbbbbbbb bbbSSbbbbbbbbbbb aaaaaaaaaaaaaaaa 
+c2n0 bbb  bbbbbbbbbbb bbbbbbbbbbbbbbbb bbb  bbbbbbbbbbb aaaaaaaaaaaaaaaa 
+  n3 aaa  aaaaabbbbbb bbbbbbbbbbbbbbbb bbb  bbbbbbbbbbb aaaaaaaaaaaaaaaa 
+  n2 aaaSSaaaaabbbbbb bbbbbbbbbbbbbbbb bbbSSbbbbbbbbbbb aaaaaaaaaaaaaaaa 
+  n1 aaaSSaaaaaabbbbb bbbbbbbbbbbbbbbb bbbSSbbbbbbbbbbb aaaaaaaaaaaaaaaa 
+c1n0 aaa  abaaaabbbbb bbbbbbbbbbbbbbbb bbb  bbbbbbbbbbb aaaaaaaaaaaaaaaa 
+  n3 aaaa aaaaaaaSaaa bbbbbbbbbbbbbbbb bbbb bbbbbbbbbbb bbaaaaaaaaaaaaaa 
+  n2 aaaaSaaaaaaaSaaa bbbbbbbbbbbbbbbb bbbbSbbbbbbbbbbb bbaaaaaaaaaaaaaa 
+  n1 aaaaSaaaaaaaSaaa bbbbbbbbbbbbbbbb bbbbSbbbbbbbbbbb bbaaaaaaaaaaaaaa 
+c0n0 aaaa aaaaaaaSaaa bbbbbbbbbbbbbbbb bbbb bbbbbbbbbbb bbaaaaaaaaaaaaaa 
+    s0123456789abcdef 0123456789abcdef 0123456789abcdef 0123456789abcdef 
+
+     C4-1             C5-1             
+  n3 aaa  aaaaaaaaaaa ---------------- 
+  n2 aaaSSaaaaaaaaaaa ---------------- 
+  n1 aaaSSaaaaaaaaaaa ---------------- 
+c2n0 aaa  aaaaaaaaaaa ---------------- 
+  n3 aaa  aZaaaaaaaaa ---------------- 
+  n2 aaaSSaZaaaaaaaaa ---------------- 
+  n1 aaaSSaZaaaaaaaaa ---------------- 
+c1n0 aaa  aZaaaaaaaaa ---------------- 
+  n3 aaaa aaaaaaaSaaa aaaaaaa--------- 
+  n2 aaaaSaaaaaaaSaaa aaaaaaaa-------- 
+  n1 aaaaSaaaaaaaSaaa aaaaaaaa-------- 
+c0n0 aaaa aaaaaaaSaaa aaaaaaaa-------- 
+    s0123456789abcdef 0123456789abcdef 
+
+Legend:
+   nonexistent node                      S  service node
+;  free interactive compute node         -  free batch compute node
+A  allocated (idle) compute or ccm node  ?  suspect compute node
+W  waiting or non-running job            X  down compute node
+Y  down or admindown service node        Z  admindown compute node
+
+Available compute nodes:          0 interactive,        162 batch
+
+
+Job ID      User     Size  Age      State      command line
+--- ------- -------- ----- -------- ------- ------------------------------
+a   1605959 ggiannak 2048  0h11m    run      nek5000                       
+b   1605934 pershey  1024  1h05m    run      bigsort                       

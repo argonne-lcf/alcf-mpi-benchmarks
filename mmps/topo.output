@@ -1,0 +1,49 @@
+ppn = 1: Aries 4: nodes 3: min/max mmps  0.709242 / 0.712953
+Application 1582632 exit signals: Killed
+Application 1582632 resources: utime ~0s, stime ~12s, Rss ~15156, inblocks ~0, outblocks ~0
+ppn = 2: Aries 4: nodes 3: min/max mmps  1.396647 / 1.404442
+Application 1582634 exit signals: Killed
+Application 1582634 resources: utime ~0s, stime ~12s, Rss ~15156, inblocks ~0, outblocks ~0
+ppn = 4: Aries 4: nodes 3: min/max mmps  2.796488 / 2.801548
+Application 1582635 exit signals: Killed
+Application 1582635 resources: utime ~0s, stime ~12s, Rss ~15156, inblocks ~0, outblocks ~0
+ppn = 8: Aries 4: nodes 3: min/max mmps  5.610801 / 5.682841
+Application 1582638 exit signals: Killed
+Application 1582638 resources: utime ~0s, stime ~12s, Rss ~15156, inblocks ~0, outblocks ~0
+ppn = 16: Aries 4: nodes 3: min/max mmps  11.233627 / 11.283600
+Application 1582639 exit signals: Killed
+Application 1582639 resources: utime ~0s, stime ~25s, Rss ~15156, inblocks ~0, outblocks ~0
+ppn = 32: Aries 4: nodes 3: min/max mmps  22.394139 / 22.520182
+Application 1582640 exit signals: Killed
+Application 1582640 resources: utime ~0s, stime ~82s, Rss ~15156, inblocks ~0, outblocks ~0
+ppn = 64: Aries 4: nodes 3: min/max mmps  34.041642 / 40.156527
+Application 1582642 exit signals: Killed
+Application 1582642 resources: utime ~1s, stime ~538s, Rss ~15156, inblocks ~0, outblocks ~0
+ppn = 1: Aries 2: nodes 2: min/max mmps  0.639322 / 0.645999
+ppn = 1: Aries 4: nodes 2: min/max mmps  0.712199 / 0.712233
+Application 1599680 exit signals: Killed
+Application 1599680 resources: utime ~0s, stime ~12s, Rss ~8456, inblocks ~0, outblocks ~0
+ppn = 2: Aries 2: nodes 2: min/max mmps  1.265293 / 1.280806
+ppn = 2: Aries 4: nodes 2: min/max mmps  1.396813 / 1.402759
+Application 1599681 exit signals: Killed
+Application 1599681 resources: utime ~0s, stime ~12s, Rss ~8600, inblocks ~0, outblocks ~0
+ppn = 4: Aries 2: nodes 2: min/max mmps  2.529969 / 2.545324
+ppn = 4: Aries 4: nodes 2: min/max mmps  2.794086 / 2.822136
+Application 1599682 exit signals: Killed
+Application 1599682 resources: utime ~0s, stime ~12s, Rss ~8476, inblocks ~0, outblocks ~0
+ppn = 8: Aries 2: nodes 2: min/max mmps  5.037673 / 5.137117
+ppn = 8: Aries 4: nodes 2: min/max mmps  5.599117 / 5.692907
+Application 1599683 exit signals: Killed
+Application 1599683 resources: utime ~0s, stime ~12s, Rss ~8512, inblocks ~0, outblocks ~0
+ppn = 16: Aries 2: nodes 2: min/max mmps  10.163439 / 10.171737
+ppn = 16: Aries 4: nodes 2: min/max mmps  11.203636 / 11.280010
+Application 1599684 exit signals: Killed
+Application 1599684 resources: utime ~0s, stime ~12s, Rss ~8704, inblocks ~0, outblocks ~0
+ppn = 32: Aries 2: nodes 2: min/max mmps  20.278946 / 20.304796
+ppn = 32: Aries 4: nodes 2: min/max mmps  22.312758 / 22.585581
+Application 1599685 exit signals: Killed
+Application 1599685 resources: utime ~0s, stime ~12s, Rss ~9156, inblocks ~0, outblocks ~0
+ppn = 64: Aries 2: nodes 2: min/max mmps  32.998588 / 36.226688
+ppn = 64: Aries 4: nodes 2: min/max mmps  35.652875 / 38.818419
+Application 1599686 exit signals: Killed
+Application 1599686 resources: utime ~0s, stime ~32s, Rss ~9736, inblocks ~0, outblocks ~0

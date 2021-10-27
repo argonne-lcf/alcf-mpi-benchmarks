@@ -1,0 +1,31 @@
+#!/bin/bash -x
+#COBALT -A Performance
+#COBALT -n 64
+#COBALT -t 0:60
+#COBALT -O topo
+#COBALT -q cache-quad
+#module load atp
+#export ATP_ENABLED=1
+rpn=1
+aprun -N $rpn -n $((COBALT_JOBSIZE*rpn)) ./aggregate
+
+#rpn=2
+#aprun -N $rpn -n $((COBALT_JOBSIZE*rpn)) ./aggregate
+
+rpn=4
+aprun -N $rpn -n $((COBALT_JOBSIZE*rpn)) ./aggregate
+
+#rpn=8
+#aprun -N $rpn -n $((COBALT_JOBSIZE*rpn)) ./aggregate
+
+rpn=16
+aprun -N $rpn -n $((COBALT_JOBSIZE*rpn)) ./aggregate
+
+#rpn=32
+#aprun -N $rpn -n $((COBALT_JOBSIZE*rpn)) ./aggregate
+
+rpn=64
+aprun -N $rpn -n $((COBALT_JOBSIZE*rpn)) ./aggregate
+
+exit $?
+

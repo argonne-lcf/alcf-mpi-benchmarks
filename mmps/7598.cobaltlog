@@ -1,0 +1,4 @@
+Jobid: 7598
+qsub -I -t 1:00:00 -n 1
+Fri Aug 19 16:38:01 2016 +0000 (UTC) submitted with cwd set to: /lus/theta-fs0/home/chunduri/Work/ALCF_MPI_Benchmark_v1.02.Theta/mmps
+jobid 7598 submitted from terminal /dev/pts/15

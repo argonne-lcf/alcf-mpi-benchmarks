@@ -1,0 +1,13 @@
++ rpn=1
++ aprun -N 1 -n 64 ./aggregate
+[NID 02422] 2016-08-24 21:07:19 Apid 1605910: initiated application termination
++ rpn=4
++ aprun -N 4 -n 256 ./aggregate
+[NID 02426] 2016-08-24 21:07:28 Apid 1605912: initiated application termination
++ rpn=16
++ aprun -N 16 -n 1024 ./aggregate
+[NID 02675] 2016-08-24 21:07:41 Apid 1605914: initiated application termination
++ rpn=64
++ aprun -N 64 -n 4096 ./aggregate
+[NID 02689] 2016-08-24 21:07:54 Apid 1605916: initiated application termination
++ exit 137

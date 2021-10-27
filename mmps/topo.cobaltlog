@@ -1,0 +1,47 @@
+Jobid: 5963
+qsub --mode script -A Performance -n 12 -t 0:20 -O topo -q cache-quad topo.cobalt
+Thu Aug 18 16:34:37 2016 +0000 (UTC) submitted with cwd set to: /lus/theta-fs0/home/morozov/Work/ALCF_MPI_Benchmark_v1.02.Theta/mmps
+jobid 5963 submitted from terminal /dev/pts/7
+Thu Aug 18 16:35:06 2016 +0000 (UTC) 
+Thu Aug 18 16:35:06 2016 +0000 (UTC) Command: '/lus/theta-fs0/home/morozov/Work/ALCF_MPI_Benchmark_v1.02.Theta/mmps/topo.cobalt'
+Thu Aug 18 16:35:06 2016 +0000 (UTC) 
+Thu Aug 18 16:35:06 2016 +0000 (UTC) Environment:
+Thu Aug 18 16:35:06 2016 +0000 (UTC) SHELL=/bin/bash
+Thu Aug 18 16:35:06 2016 +0000 (UTC) COBALT_PARTNAME=1116-1127
+Thu Aug 18 16:35:06 2016 +0000 (UTC) COBALT_JOBID=5963
+Thu Aug 18 16:35:06 2016 +0000 (UTC) COBALT_STARTTIME=1471538096
+Thu Aug 18 16:35:06 2016 +0000 (UTC) LOGNAME=morozov
+Thu Aug 18 16:35:06 2016 +0000 (UTC) USER=morozov
+Thu Aug 18 16:35:06 2016 +0000 (UTC) COBALT_ENDTIME=1471539296
+Thu Aug 18 16:35:06 2016 +0000 (UTC) COBALT_PARTSIZE=12
+Thu Aug 18 16:35:06 2016 +0000 (UTC) HOME=/home/morozov
+Thu Aug 18 16:35:06 2016 +0000 (UTC) COBALT_JOBSIZE=12
+Thu Aug 18 16:35:06 2016 +0000 (UTC) 
+Thu Aug 18 16:35:06 2016 +0000 (UTC) Info: stdin received from /dev/null
+Thu Aug 18 16:35:06 2016 +0000 (UTC) Info: stdout sent to /lus/theta-fs0/home/morozov/Work/ALCF_MPI_Benchmark_v1.02.Theta/mmps/topo.output
+Thu Aug 18 16:35:06 2016 +0000 (UTC) Info: stderr sent to /lus/theta-fs0/home/morozov/Work/ALCF_MPI_Benchmark_v1.02.Theta/mmps/topo.error
+Thu Aug 18 16:35:06 2016 +0000 (UTC) 
+Jobid: 10927
+qsub --mode script -A Performance -n 12 -t 0:20 -O topo -q cache-quad topo.cobalt
+Tue Aug 23 02:39:51 2016 +0000 (UTC) submitted with cwd set to: /lus/theta-fs0/home/chunduri/Work/ALCF_MPI_Benchmark_v1.02.Theta/mmps
+jobid 10927 submitted from terminal /dev/pts/25
+Tue Aug 23 02:40:24 2016 +0000 (UTC) 
+Tue Aug 23 02:40:24 2016 +0000 (UTC) Command: '/lus/theta-fs0/home/chunduri/Work/ALCF_MPI_Benchmark_v1.02.Theta/mmps/topo.cobalt'
+Tue Aug 23 02:40:24 2016 +0000 (UTC) 
+Tue Aug 23 02:40:24 2016 +0000 (UTC) Environment:
+Tue Aug 23 02:40:24 2016 +0000 (UTC) SHELL=/bin/bash
+Tue Aug 23 02:40:24 2016 +0000 (UTC) COBALT_PARTNAME=3406-3417
+Tue Aug 23 02:40:24 2016 +0000 (UTC) COBALT_JOBID=10927
+Tue Aug 23 02:40:24 2016 +0000 (UTC) COBALT_STARTTIME=1471920015
+Tue Aug 23 02:40:24 2016 +0000 (UTC) LOGNAME=chunduri
+Tue Aug 23 02:40:24 2016 +0000 (UTC) USER=chunduri
+Tue Aug 23 02:40:24 2016 +0000 (UTC) COBALT_ENDTIME=1471921215
+Tue Aug 23 02:40:24 2016 +0000 (UTC) COBALT_PARTSIZE=12
+Tue Aug 23 02:40:24 2016 +0000 (UTC) HOME=/home/chunduri
+Tue Aug 23 02:40:24 2016 +0000 (UTC) COBALT_JOBSIZE=12
+Tue Aug 23 02:40:24 2016 +0000 (UTC) 
+Tue Aug 23 02:40:24 2016 +0000 (UTC) Info: stdin received from /dev/null
+Tue Aug 23 02:40:24 2016 +0000 (UTC) Info: stdout sent to /lus/theta-fs0/home/chunduri/Work/ALCF_MPI_Benchmark_v1.02.Theta/mmps/topo.output
+Tue Aug 23 02:40:24 2016 +0000 (UTC) Info: stderr sent to /lus/theta-fs0/home/chunduri/Work/ALCF_MPI_Benchmark_v1.02.Theta/mmps/topo.error
+Tue Aug 23 02:40:24 2016 +0000 (UTC) 
+Tue Aug 23 02:41:48 2016 +0000 (UTC) Info: task completed normally with an exit code of 137; initiating job cleanup and removal
